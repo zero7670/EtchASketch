@@ -1,7 +1,5 @@
 
 function myFunction(){
-    
-    
     const container = document.querySelector('#container');
     while (container.hasChildNodes()) {
         container.removeChild(container.firstChild);
